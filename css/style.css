@@ -1,0 +1,73 @@
+html {
+  background-color: #17191C; }
+  html header {
+    height: 10%;
+    display: block;
+    position: relative; }
+    html header h1 {
+      font-size: 40px;
+      text-align: center;
+      color: #C1DED5;
+      text-transform: uppercase;
+      font-family: "Roboto Slab", serif; }
+  html section {
+    width: 90%;
+    margin: auto;
+    display: block;
+    position: relative; }
+    html section .box {
+      width: 20%;
+      margin-left: 5%;
+      margin-top: 5%;
+      background-color: #D7AC7B;
+      border-radius: 2%;
+      display: inline-block;
+      max-height: 340px;
+      padding-bottom: 1%; }
+      html section .box h1 {
+        font-size: 25px;
+        text-align: center;
+        color: #17191C;
+        font-family: "Roboto Slab", serif; }
+      html section .box img {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 3%;
+        border-radius: 2%; }
+      html section .box p {
+        font-size: 15px;
+        padding: 5%;
+        text-align: justify;
+        font-family: "Oswald", sans-serif;
+        margin-bottom: 7%; }
+    html section form {
+      background-color: #D7AC7B;
+      width: 50%;
+      margin: auto;
+      border-radius: 2%; }
+      html section form h1 {
+        font-size: 25px;
+        text-align: center;
+        color: #17191C;
+        padding-top: 10px;
+        font-family: "Roboto Slab", serif; }
+      html section form .form-input {
+        margin-left: 10%;
+        width: 80%;
+        height: 10%;
+        margin-bottom: 5%;
+        font-family: "Oswald", sans-serif;
+        font-size: 16px; }
+      html section form button {
+        margin-left: 25%;
+        margin-bottom: 5%;
+        width: 50%;
+        padding: 2%;
+        background-color: #2E239E;
+        border: none;
+        color: #C1DED5;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Oswald", sans-serif; }

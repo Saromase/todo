@@ -1,0 +1,12 @@
+{
+  "name": "todocode",
+  "version": "1.0.0",
+  "description": "Une petite todo list.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compiler": "node-sass --watch css/style.scss css/style.css "
+  },
+  "author": "",
+  "license": "ISC"
+}
