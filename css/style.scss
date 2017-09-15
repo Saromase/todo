@@ -1,9 +1,10 @@
 $primLight:#4482D1;
 $primMedium: #504D6B;
 $primDark: #2E239E;
-$seconLight: #D7AC7B;
-$seconDark: #17191C;
+$seconLight: #C3CACB;
+$seconDark: #00514f;
 $textLight: #C1DED5;
+$textDark: #252033;
 $fontText: 'Oswald',
 sans-serif;
 $fontHeader: 'Roboto Slab',
@@ -34,12 +35,13 @@ html {
             background-color: $seconLight;
             border-radius: 2%;
             display: inline-block;
-            max-height: 340px;
+            height: 340px;
             padding-bottom: 1%;
+            position: relative;
             h1 {
                 font-size: 25px;
                 text-align: center;
-                color: $seconDark;
+                color: $textDark;
                 font-family: $fontHeader;
             }
             img {
@@ -76,12 +78,20 @@ html {
                 font-family: $fontText;
                 font-size: 16px;
             }
+            .form-area {
+                margin-left: 10%;
+                width: 80%;
+                height: 20%;
+                margin-bottom: 5%;
+                font-family: $fontText;
+                font-size: 16px;
+            }
             button {
                 margin-left: 25%;
                 margin-bottom: 5%;
                 width: 50%;
                 padding: 2%;
-                background-color: $primDark;
+                background-color: $seconDark;
                 border: none;
                 color: $textLight;
                 text-align: center;

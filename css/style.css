@@ -1,5 +1,5 @@
 html {
-  background-color: #17191C; }
+  background-color: #00514f; }
   html header {
     height: 10%;
     display: block;
@@ -19,15 +19,16 @@ html {
       width: 20%;
       margin-left: 5%;
       margin-top: 5%;
-      background-color: #D7AC7B;
+      background-color: #C3CACB;
       border-radius: 2%;
       display: inline-block;
-      max-height: 340px;
-      padding-bottom: 1%; }
+      height: 340px;
+      padding-bottom: 1%;
+      position: relative; }
       html section .box h1 {
         font-size: 25px;
         text-align: center;
-        color: #17191C;
+        color: #252033;
         font-family: "Roboto Slab", serif; }
       html section .box img {
         width: 70%;
@@ -41,14 +42,14 @@ html {
         font-family: "Oswald", sans-serif;
         margin-bottom: 7%; }
     html section form {
-      background-color: #D7AC7B;
+      background-color: #C3CACB;
       width: 50%;
       margin: auto;
       border-radius: 2%; }
       html section form h1 {
         font-size: 25px;
         text-align: center;
-        color: #17191C;
+        color: #00514f;
         padding-top: 10px;
         font-family: "Roboto Slab", serif; }
       html section form .form-input {
@@ -58,12 +59,19 @@ html {
         margin-bottom: 5%;
         font-family: "Oswald", sans-serif;
         font-size: 16px; }
+      html section form .form-area {
+        margin-left: 10%;
+        width: 80%;
+        height: 20%;
+        margin-bottom: 5%;
+        font-family: "Oswald", sans-serif;
+        font-size: 16px; }
       html section form button {
         margin-left: 25%;
         margin-bottom: 5%;
         width: 50%;
         padding: 2%;
-        background-color: #2E239E;
+        background-color: #00514f;
         border: none;
         color: #C1DED5;
         text-align: center;

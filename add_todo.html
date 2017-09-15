@@ -1,4 +1,4 @@
-<!DOCYPE html>
+<!DOTCYPE html>
 <html>
 
 <head>
@@ -13,12 +13,13 @@
 <body>
     <header>
         <h1 id="start">Appli Pourri - Add</h1>
+        <a href="index.php">Revenir a la liste</a>
     </header>
     <section id="container">
-        <form action="" class="form">
+        <form action="php/todo_add.php" class="form" method="post">
             <h1>Ajouter</h1>
             <input type="text" name="title" placeholder="Titre" class="form-input">
-            <input type="text" name="describe" placeholder="Entrez ici la tache à faire" class="form-input">
+            <textarea type="text" name="describe" placeholder="Entrez ici la tache à faire" class="form-area"></textarea>
             <button type="submit">Ajouter</button>
         </form>
     </section>
