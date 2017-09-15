@@ -2,7 +2,7 @@
 include 'function.php';
 $title = $_POST['title'];
 $describe = $_POST['describe'];
-$img = "img/maxres.jpg";
+$img = selectRandomImage();
 if ($title != null && $describe != null){
     insertIntoBDD($title, $describe, $img);
 }

@@ -30,11 +30,20 @@ html {
         text-align: center;
         color: #252033;
         font-family: "Roboto Slab", serif; }
-      html section .box img {
+      html section .box .image {
         width: 70%;
+        height: 40%;
         margin-left: 15%;
         margin-bottom: 3%;
-        border-radius: 2%; }
+        border-radius: 2%;
+        background-size: cover;
+        background-position: center; }
+      html section .box #image1 {
+        background-image: url("../img/blackhole.jpg"); }
+      html section .box #image2 {
+        background-image: url("../img/earth.jpg"); }
+      html section .box #image0 {
+        background-image: url("../img/sun.jpg"); }
       html section .box p {
         font-size: 15px;
         padding: 5%;

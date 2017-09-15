@@ -34,10 +34,14 @@ function printBox(array $data){
     for ($i = 0 ; $i < count($data); $i++){
         $box .= "<div class='box'>";
         $box .= "<h1>". $data[$i]['titre'] ."</h1>";
-        $box .= "<img src='" . $data[$i]['img'] ."' alt='planete mauve'>";
+        $box .= "<div class='image' id='image". $i."'></div>";
         $box .= "<p>" . $data[$i]['message'] ."</p>";
         $box .= "</div>";
     }
-    
     return $box;   
+}
+function selectRandomImage(){
+    $images = ["img/saturn.jpg", "img/encelade.jpg", "img/neptun.jpg", "img/earth.jpg", "img/titan.jpg", "img/blackhole.jpg", "img/sun.jpg" ];
+    $random = rand(0, count($images) -1);
+    return $images[$random];
 }

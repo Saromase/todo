@@ -44,11 +44,23 @@ html {
                 color: $textDark;
                 font-family: $fontHeader;
             }
-            img {
+            .image {
                 width: 70%;
+                height: 40%;
                 margin-left: 15%;
                 margin-bottom: 3%;
                 border-radius: 2%;
+                background-size: cover;
+                background-position: center;
+            }
+            #image1 {
+                background-image: url('../img/blackhole.jpg');
+            }
+            #image2 {
+                background-image: url('../img/earth.jpg');
+            }
+            #image0 {
+                background-image: url('../img/sun.jpg');
             }
             p {
                 font-size: 15px;

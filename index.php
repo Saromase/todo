@@ -19,7 +19,7 @@
         <?php
             include 'php/function.php';
             $todo = selectAll();
-            echo printBox($todo);            
+            echo printBox($todo);
         ?>
     </section>
 </body>
