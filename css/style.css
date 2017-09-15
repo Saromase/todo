@@ -1,7 +1,7 @@
 html {
   background-color: #00514f; }
   html header {
-    height: 10%;
+    height: auto;
     display: block;
     position: relative; }
     html header h1 {

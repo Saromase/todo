@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Appli Pourri</h1>
-        <!--<a href="add_todo.html">Ajouter une box</a>-->
+        <h1><a href="add_todo.html">Ajouter une box</a></h1>
     </header>
     <section id="container">
         <?php
